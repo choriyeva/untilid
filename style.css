@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    padding: 100px 300px;
+}
+
+.pay{
+    display: flex;
+    justify-content: space-between;
+}
+.pay h1{
+            color: #1786F9;
+            font-family: Poppins;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 138%;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+}
+.pay p{
+    color: #000;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 151%;
+margin-bottom: 20px;
+}
+.rent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 0;
+}
+.rent button{
+    display: flex;
+    width: 187px;
+    font-size: 13px;
+    height: 63px;
+    flex-shrink: 0;
+    background-color: #000;
+    color: #ffffff;
+    padding: 6px 1px;
+    border-radius: 10px;
+}
+.rent button i{
+    font-size: 39px;
+}
+.rent div h5{
+    font-size: 24px;
+}
+.pay p{
+    color: #000;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151%;
+}
+.easy{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 50px;
+    margin-top: 100px;
+}
+.bank{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+.easy > div > img{
+    display: flex;
+    width: 549.932px;
+    height: 336.03px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.easy .bank div{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Poppins;
+}
+.easy div h4{
+    color: #1786F9;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.023%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.easy div p{
+    color: #000;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175.523%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.easy div button{
+    width: 286px;
+    height: 54px;
+    margin-top: 50px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #F8D617;
+    border-style: hidden;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.easy div .bank{
+    margin-top: 38px;
+}
+
+
+/* ikkinchi section uchun style */
+
+.apply{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.apply .report{
+    width: 601px;
+    height: 739px;
+    flex-shrink: 0;
+}
+.apply .report .blue{
+    border-radius: 18px;
+    background: #CEDFFF;
+    width: 544px;
+    height: 318px;
+    flex-shrink: 0;
+}
+.apply .report .pink{
+    border-radius: 18px;
+    background: #FFEDED;
+    width: 544px;
+    height: 318px;
+    flex-shrink: 0;
+}
+.apply .report h4{
+    color: #171F4E;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 128%;
+    margin-top: 30px;
+}
+
+.apply .report .receive div{
+    display: flex;
+    gap: 10px;
+    color: #000;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 128%;
+    margin-top: 30px;
+}
+.apply .report div button{
+    width: 301px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #F8D617;
+    margin-top: 20px;
+    border-style: hidden;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.25);
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.apply .report .receive div button i{
+    /* color: #1786F9; */
+    background: #1786F9;
+}
+.vidio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    transform: translate(-30px,-770px);
+}
+.you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    transform: translate(-34px,-987px);
+}
+
+footer h2{
+    color: #171F4E;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+footer p{
+    color: #000;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+footer .what{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134%;
+}
